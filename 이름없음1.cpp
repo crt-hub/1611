@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main()
 {
-	int num1;
-	int num2, num3;
-	char ch;
+	int score = 89;
+	if(score >= 90)
+		printf("A");
+	else
+		printf("B");
 	return 0;
+	
+	getchar();
 }
